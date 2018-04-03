@@ -8,10 +8,10 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class CodeableEnumTypeHandler<E extends Enum<?> & MyBatisEnum> extends BaseTypeHandler<MyBatisEnum> {
+public class MyBatisEnumTypeHandler<E extends Enum<?> & MyBatisEnum> extends BaseTypeHandler<MyBatisEnum> {
     private Class<E> type;
 
-    public CodeableEnumTypeHandler(Class<E> type) {
+    public MyBatisEnumTypeHandler(Class<E> type) {
         if (type == null) {
             throw new IllegalArgumentException("Type argument cannot be null");
         }

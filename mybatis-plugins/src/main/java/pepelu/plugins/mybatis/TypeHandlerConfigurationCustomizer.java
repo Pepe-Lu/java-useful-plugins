@@ -4,7 +4,7 @@ import org.apache.ibatis.io.ResolverUtil;
 import org.apache.ibatis.session.Configuration;
 import org.apache.ibatis.type.TypeHandlerRegistry;
 import org.mybatis.spring.boot.autoconfigure.ConfigurationCustomizer;
-import pepelu.plugins.mybatis.typehandler.CodeableEnumTypeHandler;
+import pepelu.plugins.mybatis.typehandler.MyBatisEnumTypeHandler;
 import pepelu.plugins.mybatis.typehandler.MyBatisEnum;
 
 import java.util.Set;
@@ -25,7 +25,7 @@ public class TypeHandlerConfigurationCustomizer implements ConfigurationCustomiz
         Set<Class<? extends Class<?>>> typeSet = resolverUtil.getClasses();
         for (Class<?> type : typeSet) {
             if (type.isEnum() && MyBatisEnum.class.isAssignableFrom(type)) {
-                typeHandlerRegistry.register(type, CodeableEnumTypeHandler.class);
+                typeHandlerRegistry.register(type, MyBatisEnumTypeHandler.class);
             }
         }
     }
