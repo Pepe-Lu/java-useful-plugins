@@ -1,0 +1,2 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  pepelu.plugins.mybatis.configuration.MyBatisEnumTypeHandlerAutoConfig
