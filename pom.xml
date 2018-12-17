@@ -12,7 +12,18 @@
         <module>mybatis-plugins</module>
         <module>mybatis-plugins-demo</module>
     </modules>
-
+    <scm>
+        <url>https://github.com/pepelu0/java-useful-plugins</url>
+        <connection>https://github.com/pepelu0/java-useful-plugins.git</connection>
+        <developerConnection>https://github.com/pepelu0/java-useful-plugins</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <name>pepelu</name>
+            <email>ll999ff111@126.com</email>
+            <url>https://github.com/pepelu0/java-useful-plugins</url>
+        </developer>
+    </developers>
     <build>
         <plugins>
             <plugin>
