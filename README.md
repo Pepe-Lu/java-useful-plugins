@@ -14,6 +14,15 @@ you need is to configure your enum package.
 
 + Include mybatis-plugins jar in your class path.
 
+  Maven:
+  ```xml
+   <dependency>
+     <groupId>com.github.pepelu0</groupId>
+     <artifactId>mybatis-spring-boot-extensions</artifactId>
+     <version>0.0.1</version>
+   </dependency>
+  ```
+
 + Configure your enum package to be recognized as MyBatisEnumType.
 
 >For properties file:
