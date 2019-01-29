@@ -48,9 +48,9 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
         <dependency>
-            <groupId>pepelu-java-plugins</groupId>
-            <artifactId>mybatis-plugins</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <groupId>com.github.pepelu0</groupId>
+            <artifactId>mybatis-spring-boot-extensions</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 </project>
