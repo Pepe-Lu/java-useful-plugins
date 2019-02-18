@@ -5,14 +5,16 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>pepelu-java-plugins</groupId>
+        <groupId>com.github.pepelu0</groupId>
         <artifactId>pepelu-java-plugins-parent</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
-    <artifactId>mybatis-plugins</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>mybatis-spring-boot-extensions</artifactId>
+    <version>0.0.1</version>
     <packaging>jar</packaging>
+    <description>mybatis spring boot extensions</description>
+    <name>MyBatisSpringBootExtensions</name>
 
     <dependencies>
         <dependency>

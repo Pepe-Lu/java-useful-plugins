@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>pepelu-java-plugins</groupId>
-    <artifactId>mybatis-plugins-demo</artifactId>
+    <groupId>com.github.pepelu0</groupId>
+    <artifactId>mybatis-spring-boot-extensions-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>mybatis-plugins-demo</name>
-    <description>Demo project for Mybatis Plugins</description>
+    <name>mybatis-spring-boot-extensions-demo</name>
+    <description>Demo project for Mybatis Spring Boot Extensions</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
